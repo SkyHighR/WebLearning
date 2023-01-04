@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 语义化标签 -->
+    <!-- div独占一行 span不占行 无任何效果-->
+    <div>
+        我是div
+        <span>我是span</span>
+    </div>
+    <hr>
+    <!-- header 网页头部 -->
+    <header>
+        <h1>我是header</h1>
+    </header>
+    <!-- nav网页导航 -->
+    <nav>
+        <h1>我是nav</h1>
+    </nav>
+    <!-- section网页区块 -->
+    <section>
+        <h1>我是section</h1>
+    </section>
+    <!-- article网页文章 -->
+    <article>
+        <h1>我是article</h1>
+    </article>
+    <!-- aside网页侧边栏 -->
+    <aside>
+        <h1>我是aside</h1>
+    </aside>
+    <!-- footer网页底部 -->
+    <footer>
+        <h1>我是footer</h1>
+    </footer>
+
+    <hr>
+    <!-- 字符实体 -->
+    这里有空&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格
+    <p>这里有空     格</p>
+
+    <hr>
+    <hr>
+    <table border="2">
+        <caption><strong>good student table</strong></caption>
+        <tr>
+            <td>grade</td>
+            <td>name</td>
+            <td>code</td>
+            <td>class</td>
+        </tr>
+        <tr>
+            <td rowspan="2">1</td>
+            <td>张三</td>
+            <td>001</td>
+            <td>1班</td>
+        </tr>
+        <tr>
+            <td>李四</td>
+            <td>002</td>
+            <td>4班</td>
+        </tr>
+        <tr>
+            <td>comment</td>
+            <td colspan="3">Good</td>
+        </tr>
+    </table>
+
+    <hr>
+
+<h1>青村承载</h1>
+<hr>
+<form action="">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name">
+    <br>
+    Sex: <input type="radio" name="Sex" id="man" checked>
+    <label for="man">man</label>
+    <input type="radio" name="Sex" id="fam">
+    <label for="fam">fam</label>
+    <br>
+    city: <select name="city" id="city">
+        <option value="bj" selected>北京</option>
+        <option value="sh">上海</option>
+        <option value="gz">广州</option>
+        <option value="sz">深圳</option>
+    </select>
+    <br>
+    merrige: 
+    <br>
+    like: <label><input type="checkbox">sb</label>
+    <label><input type="checkbox">sbb</label>
+    <label><input type="checkbox">sbbb</label>
+    <br>
+    about: <br><textarea name="about" id="about" cols="30" rows="20"></textarea>
+    <br>
+    <h2>i make sure</h2>
+    <ul>
+        <li>i is sb</li>
+        <li>i is sbb</li>
+    </ul>
+    <input type="checkbox">i agree
+    <br>
+    <input type="submit" value="submit ok?">
+    <button type="reset">reset ok?</button>
+    
+
+</form>
+</body>
+</html>
