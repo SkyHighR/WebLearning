@@ -1,7 +1,51 @@
-p{
-    color: #4cd575;
+h3{
+    color: #6e4cd5;
 }
-
-
-
-
+*{
+    margin: 0;
+    padding: 0;
+}
+.class07{
+    text-indent: 2em;
+}
+.class06{
+    /* fonnt:style weight size 字体 复合属性*/
+    font : italic 700 66px Stliti;
+    font-style: normal;
+}
+.class05{
+    font-family: Dax;
+    color: #e80e0e;
+    color: #9393e350;
+}
+.class04{
+    text-decoration: underline;
+}
+.class03{
+    font-style: italic;
+}
+.class02{
+    font-weight: 400;
+}
+.class01{
+    /* 默认字号16 */
+    font-size: 17px;
+    margin: 0 auto;
+}
+.class08{
+    /* 文本水平对齐 */
+    text-align: center;
+    color: #7fffd48e;
+}
+.class09{
+    /* 文本修饰 */
+    text-decoration: line-through;
+}
+.class10{
+    text-decoration: underline;
+}
+.class11{
+    /* 行高 数字+px 单文字表倍*/
+    line-height: 0.8;
+    font: italic 400 20px/1.5 HarmonyOS Sans;
+}

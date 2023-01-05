@@ -8,7 +8,7 @@
     <!-- css层叠样式表 -->
     <style>
         /* css注释 */
-        /* 选择器 {属性:值;} */
+        /* 标签选择器 {属性:值;} */
         p{
             /* color turn red */
             color: #12b428;
@@ -19,6 +19,38 @@
             height: 100px;
         }
     </style>
+    <style>
+        /* 类选择器 */
+        .class001{
+            color: #e58bb2;
+            background-color: #12b428;
+        }
+        .size001{
+            font-size: 80px;
+        }
+    </style>
+    <style>
+        /* id选择器 */
+        /* 配合js，用只能用一次 */
+        #d001{
+            color: #140630;
+            font-size: 40px;
+            background-color: #3d6843;
+        }
+    </style>
+    <style>
+        /* 通配符选择器 */
+        /* 所有的统统变 */
+        *{
+            color: #cd7731;
+            font-size: 40px;
+            background-color: #12b428;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <!-- 选择器 {属性:值;} -->
+    
     <!-- css引入方式 -->
     <link rel="stylesheet" href="../CssBasic/01.css">
 
@@ -26,9 +58,14 @@
 </head>
 <body>
     <p>there is a p page 001</p>
-    <p>there is a p page 002</p>
+    <h3>there is a p page 002</h3>
     <hr>
     <div style="color: #a98be5; font-size: 40px; background-color: #12b428;">there is a p page 003</div>
+    <hr>
+    <p class="class001">there is a p page 004.1</p>
+    <div class="class001 size001" >there is a p page 004</div>
+    <hr>
+    <p id="d001">there is a p page 005</p>
     
 </body>
 </html>

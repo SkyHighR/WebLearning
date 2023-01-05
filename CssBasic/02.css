@@ -1,0 +1,54 @@
+*{
+    margin: 0 auto;
+    background-color: azure;
+}
+.title01{
+    text-align: center;
+}
+.p1{
+    text-align: center;
+    font-size: 18px;
+
+}
+.coloe0{
+    color: #ff000072;
+}
+.coloe1{
+    color: #32b8e5;
+    font-weight: 700;
+}
+.link{
+    text-decoration: underline;
+    color: #a258f0;
+}
+.p2{
+    text-indent: 2em;
+    width: 60%;
+}
+.goods{
+    width: 440px;
+    height: 433px;
+    background-color: #f0f0f0;
+    /* 让div剧中 */
+    margin: 0 auto;
+    /* 内容剧中 */
+    text-align: center;
+}
+.img0{
+    width: 80%;
+}
+.name01{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #000000;
+    background-color: #f0f0f0;
+}
+.mon{
+    color: aqua;
+    background-color: #f0f0f0;
+}
+.hasb{
+    background-color: #f0f0f0;
+    color: #dc143c7a;
+}
